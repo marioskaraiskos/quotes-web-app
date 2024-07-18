@@ -21,7 +21,7 @@ import posts.views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', posts.views.home),
-    path('authors', posts.views.authors),
-    path('quotes', posts.views.quotes),
+    path('authors/', posts.views.authors),
+    path('quotes/', posts.views.quotes),
     path('add/quote', posts.views.add_quote),
 ]
